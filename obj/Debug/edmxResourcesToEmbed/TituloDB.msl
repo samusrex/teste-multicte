@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="transporte_tituloModelStoreContainer" CdmEntityContainer="transporte_tituloEntities">
+    <EntitySetMapping Name="titulos">
+      <EntityTypeMapping TypeName="transporte_tituloModel.titulos">
+        <MappingFragment StoreEntitySet="titulos">
+          <ScalarProperty Name="titulo_id" ColumnName="titulo_id" />
+          <ScalarProperty Name="numero" ColumnName="numero" />
+          <ScalarProperty Name="data_emissao" ColumnName="data_emissao" />
+          <ScalarProperty Name="cliente" ColumnName="cliente" />
+          <ScalarProperty Name="situacao" ColumnName="situacao" />
+          <ScalarProperty Name="observacao" ColumnName="observacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
